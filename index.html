@@ -1,17 +1,26 @@
-<!DOCTYPE html>    
-<html lang= "es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta name="author" content="Yessi Dalí">
-    <meta name="description"content="es una pagina de ejemplo">
-    <meta name="keywords" content="3e,quimicobiologico,prefeco">
-    <link rel="stylesaheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
+    <title>Examen de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenido a Mi Página Web</h1>
-    <p>Este es un párrafo de prueba.</p>
-    <a href="hhtps://www.google.com">Ir a Google</a>
+    <div class="container">
+        <h1>Ejercicio de JavaScript</h1>
+
+        <label for="nombre">Ingresa tu nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        <button onclick="saludar()">Saludar</button>
+        <br>
+        <label for="numero">Ingresa un número:</label>
+        <input type="number" id="numero" placeholder="Escribe un número">
+        <button onclick="calcularCuadrado()">Calcular Cuadrado</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
